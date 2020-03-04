@@ -34,17 +34,12 @@ class MainActivity : AppCompatActivity() {
     }
    override fun onSupportNavigateUp(): Boolean {
        val navController = this.findNavController(R.id.navNavHostFragment)
-
-return NavigationUI.navigateUp(navController,drawLayout)|| super.onSupportNavigateUp()
+       if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+           return  super.onSupportNavigateUp()
+       }
+           super.onBackPressed()
+       return    NavigationUI.navigateUp(navController,drawLayout)
    }
-
-    override fun onBackPressed() {
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.closeDrawer(GravityCompat.START)
-        } else {
-            super.onBackPressed()
-        }
-    }
 
 
 }
