@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RickAndMortyQuizz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="move_forward_btn">Next</string>
+    <string name="cheat_btn">CHEAT</string>
+    <string name="answer_true_btn">True</string>
+    <string name="answer_false_btn">False</string>
+    <string name="move_backward_btn">Back</string>
+    <string name="are_sure_you_really_want_to_do_this">Are you sure you really want to do that?</string>
+    <string name="about_item">About</string>
+<string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="about_rick_and_morty">Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network\'s late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.  Roiland voices the eponymous characters, with Chris Parnell, Spencer Grammer and Sarah Chalke voicing the rest of the family. The series originated from an animated short parody film of Back to the Future, created by Roiland for Channel 101, a short film festival co-founded by Harmon. The series has been acclaimed by critics for its originality, creativity and humor.  The series has been picked up for an additional seventy episodes over an unspecified number of seasons, beginning with season 4. The fourth season premiered on November 10, 2019 and will consist of ten episodes.</string>
+</resources>
